@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#btn {
+  background: rgb(245, 212, 27);
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(245, 212, 27);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
